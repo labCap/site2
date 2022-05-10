@@ -1,0 +1,904 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: url(../img/bg-top.png) no-repeat center top / cover;
+    height: 820px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.header__inner {
+    padding: 48px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+.logo {
+    padding-right: 179px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list li {
+    padding: 0 17px;
+}
+
+.menu__list a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header__btn {
+    padding: 13px 42px;
+    border: 2px solid #c04ae2;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.social-link {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link li {
+    padding: 0 8px;
+}
+
+.content__box {
+    width: 546px;
+    height: 432px;
+}
+
+.content__title {
+    font-size: 80px;
+    line-height: 100px;
+    padding-bottom: 50px;
+}
+
+
+.content__descr {
+    font-size: 25px;
+    line-height: 36px;
+    padding-bottom: 45px;
+}
+
+.btn a {
+    background-color: #c04ae2;
+    color: #fff;
+    padding: 19px 50px;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.info__text {
+    text-align: center;
+
+}
+
+.info__subtitle {
+    padding-top: 150px;
+}
+
+.info__subtitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+}
+
+.info__title {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90px;
+    padding-bottom: 100px;
+}
+
+.info__items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 190px;
+}
+
+.item:nth-child(1) {
+    height: 486px;
+    width: 356px;
+    border: 7px solid #fcd7df;
+    border-radius: 15px;
+    padding: 42px;
+}
+
+.item:nth-child(2) {
+    height: 486px;
+    width: 356px;
+    border: 7px solid #c9f3e2;
+    border-radius: 15px;
+    padding: 42px;
+}
+
+.item:nth-child(3) {
+    height: 486px;
+    width: 356px;
+    border: 7px solid #f2d5ba;
+    border-radius: 15px;
+    padding: 42px;
+}
+
+.item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.item__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.item__descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.about {
+    background-color: #fef9f9;
+    height: 630px;
+}
+
+.about__text {
+    width: 470px;
+    /* height: 384px; */
+}
+
+.about__inner {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about__title {
+    font-size: 60px;
+    line-height: 90px;
+    padding: 40px 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+}
+
+.about__descr {
+    line-height: 28px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+}
+
+.about__btn {
+    padding: 46px 0;
+}
+
+.about__btn a {
+    background-color: #c04ae2;
+    color: #fff;
+    padding: 19px 50px;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.about__img {
+    display: flex;
+    height: 300px;
+    margin-top: 135px;
+}
+
+
+.service__subtitle {
+    padding-top: 50px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 190px;
+}
+
+.service__title1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: right;
+    padding-bottom: 35px;
+}
+
+.service__title {
+    font-size: 27px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+.service__items {
+    padding-bottom: 190px;
+}
+
+.service__items1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.service-item {
+    width: 370px;
+    height: 470px;
+    padding: 45px;
+    border-radius: 10px;
+    /* background-color: rgb(199, 194, 194); */
+    box-shadow: 0px 24px 72px 0px rgba(7, 28, 75, 0.2);
+}
+
+.service-item__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.service__descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.service__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.portfolio {
+    background-color: #fef9f9;
+}
+
+.portfolio__inner {
+    padding-bottom: 200px;
+}
+
+.portfolio__subtitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.portfolio__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
+}
+
+.portfolio-item__text {
+    padding: 0 120px;
+}
+
+.portfolio-item__subtitle {
+    padding-top: 50px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    padding-top: 190px;
+}
+
+#portfolio-item__subtitle-id1 {
+    color: #fe6686;
+}
+
+#portfolio-item__subtitle-id2 {
+    color: #54d6a1;
+}
+
+#portfolio-item__subtitle-id3 {
+    color: #fe9a3f;
+}
+
+.portfolio-item__title {
+    font-size: 27px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    /* text-align: center; */
+    padding-bottom: 35px;
+}
+
+.portfolio-item__descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    /* text-align: center; */
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.portfolio-item__btn a {
+    padding: 13px 42px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+
+#portfolio-item__btn-id1 {
+    border: 2px solid #fe6686;
+}
+
+#portfolio-item__btn-id2 {
+    border: 2px solid #54d6a1;
+}
+
+#portfolio-item__btn-id3 {
+    border: 2px solid #fe9a3f;
+}
+
+.portfolio-link {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-link a {
+    padding: 9px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000;
+    align-items: center;
+    border-bottom: 2px solid #c04ae2;
+    font-family: 'Overpass', sans-serif;
+}
+
+.team__subtitle {
+    padding-top: 50px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.team__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-item {
+    padding-bottom: 190px;
+}
+
+.name {
+    padding-top: 45px;
+    font-size: 27px;
+    line-height: 42px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+.team-item1 {
+    padding-bottom: 50px;
+}
+
+.team-item2 {
+    padding-top: 50px;
+}
+
+.name-descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    /* text-align: center; */
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.testimonial {
+    background-color: #fef9f9;
+}
+
+.testimonial__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial__text {
+    width: 570px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 24px 72px 0px rgba(7, 28, 75, 0.2);
+}
+
+.testimonial__subtitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.testimonial__title {
+    font-size: 45px;
+    line-height: 60px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.testimonial__descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    line-height: 28px;
+    font-size: 21px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.testimonial__name {
+    font-size: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.testimonial__name span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    line-height: 28px;
+    font-size: 12px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.testimonial__img img {
+    height: 606px;
+    width: 400px;
+    padding: 50px 0;
+}
+
+.contact__subtitle {
+    padding-top: 50px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 45px;
+    line-height: 60px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.contact__form {
+    width: 470px;
+
+}
+
+.contact__form input,
+.contact__form textarea {
+    border-radius: 5px;
+    padding: 0 12px;
+    margin: 25px 0;
+    border: 1px solid rgba(255, 255, 255, .05);
+    background-color: transparent;
+    height: 70px;
+    display: block;
+    width: 100%;
+    color: #5e5858;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    font-size: 11px;
+    box-shadow: 0px 24px 72px 0px rgba(7, 28, 75, 0.2);
+
+}
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder {
+    color: #5e5858;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact__form textarea {
+    padding: 12px;
+    height: 205px;
+    resize: none;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact__form button {
+    background-color: #c04ae2;
+    color: #fff;
+    padding: 19px 50px;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    border: none;
+}
+
+.form__title {
+    font-size: 45px;
+    line-height: 60px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.form__descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    line-height: 35px;
+    font-size: 21px;
+    padding: 0 0 40px 15px;
+    text-align: left;
+    width: 470px;
+}
+
+.contact__item {
+    padding-left: 255px;
+
+}
+
+.contact-items {
+    display: flex;
+}
+
+.contact-items img {
+    width: 48px;
+    height: 48px;
+}
+
+.contact__box {
+    display: block;
+}
+
+.contact__box .form__title {
+    font-size: 25px;
+    line-height: 28px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.blog {
+    background-color: #fef9f9;
+    padding: 50px 0 190px;
+}
+
+.blog__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__subtitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.blog__title {
+    font-size: 45px;
+    line-height: 60px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+
+.blog__link {
+    display: flex;
+    align-items: center;
+}
+
+.blog__link a {
+    padding: 9px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000;
+    align-items: center;
+    border-bottom: 2px solid #c04ae2;
+    font-family: 'Overpass', sans-serif;
+}
+
+.blog__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-item {
+    height: 400px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 52px;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+
+}
+
+.item-subtitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#item-subtitle__subtitle-id1 {
+    color: #fe6686;
+}
+
+#item-subtitle__subtitle-id2 {
+    color: #54d6a1;
+}
+
+#item-subtitle__subtitle-id3 {
+    color: #fe9a3f;
+}
+
+.item-title {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.item-descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    line-height: 35px;
+    font-size: 21px;
+    text-align: left;
+    padding-bottom: 45px;
+}
+
+.item-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name {
+    font-size: 21px;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    padding-right: 45px;
+}
+
+.like {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 24px;
+}
+
+.like::before {
+    content: "";
+    background-image: url(../img/like.png);
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.like {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+}
+
+.footer-box {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.footer-top input {
+    border-radius: 5px;
+    padding: 0 12px;
+    border: 1px solid rgba(255, 255, 255, .05);
+    background-color: #f3f9fb;
+    height: 60px;
+    display: block;
+    width: 100%;
+    color: #5e5858;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    box-shadow: 0px 24px 72px 0px rgba(7, 28, 75, 0.2);
+}
+
+
+.footer_descr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5e5858;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 30px;
+    width: 340px;
+}
+
+.footer_descr span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.footer_title {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.footer-about li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #5e5858;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footer-service li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #5e5858;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footer-contact li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #5e5858;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footer_social {
+    padding-left: 57px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footer-bottom__text {
+    display: flex;
+    justify-content: space-between;
+}

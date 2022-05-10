@@ -1,0 +1,282 @@
+@media (max-width: 399px) {
+    .header {
+        background: url(../img/bg-top1.png);
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+    }
+
+    .menu__list a {
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid #000;
+        background: #fff;
+    }
+
+    .menu__list li {
+        margin-left: 0;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .logo {
+        padding-right: 20px;
+    }
+
+    .content__box {
+        width: 348px;
+        height: 432px;
+        background-color: rgba(217, 217, 217, 0.496);
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .content__title {
+        font-size: 50px;
+        line-height: 60px;
+        padding-bottom: 50px;
+    }
+
+    .info__items {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .item:nth-child(1) {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .item:nth-child(2) {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .item:nth-child(3) {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .info__title {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 60px;
+    }
+
+    .info__subtitle {
+        padding-top: 70px;
+        font-size: 17px;
+
+    }
+
+    .about {
+        background: url(../img/about-img2.png) no-repeat;
+    }
+
+    .about__inner {
+        display: block;
+    }
+
+    .about__text {
+        width: auto;
+        background-color: rgba(255, 255, 255, 0.412);
+        /* height: 384px; */
+    }
+
+    .about__title {
+
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    .about__descr {
+        font-size: 23px;
+        color: #000;
+    }
+
+    .service__items1 {
+        display: block;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .service-item {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .service__subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio-item__subtitle {
+        padding-top: 25px;
+        font-size: 24px;
+    }
+
+    .portfolio-item__text {
+        padding: 0;
+    }
+
+    .portfolio-item {
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 85px;
+    }
+
+    .portfolio-item img {
+        height: 100px;
+    }
+
+    .portfolio-item__subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio__subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio__inner {
+        padding-bottom: 100px;
+    }
+
+    .team__subtitle {
+        font-size: 20px;
+    }
+
+    .team__items {
+        display: block;
+    }
+
+    .team__title {
+
+        padding-bottom: 50px;
+    }
+
+    .team-item1 {
+        padding: 0;
+    }
+
+    .team-item {
+        padding: 0;
+    }
+
+    .testimonial {
+        background: url(../img/testimonial-img.png) no-repeat;
+    }
+
+    .testimonial__img {
+        display: none;
+    }
+
+    .testimonial__text {
+        width: auto;
+        height: auto;
+        background-color: rgb(255 255 255 / 80%);
+        margin: 90px 0;
+    }
+
+    .testimonial__descr {
+        color: #000;
+    }
+
+    .contact__subtitle {
+        font-size: 20px;
+    }
+
+    .contact__title {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+
+    .form__title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .contact__inner {
+        display: block;
+        padding: 0;
+    }
+
+    .contact__form {
+        width: auto;
+    }
+
+    .contact__item {
+        padding: 0;
+    }
+
+    .form__descr {
+
+        padding: 20px 0;
+        width: auto;
+    }
+    .blog {
+        padding: 50px 0;
+    }
+    .blog__subtitle {
+        font-size: 20px;
+    }
+
+    .blog__title {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+
+    .blog__link a {
+        padding: 9px;
+        line-height: 20px;
+    }
+    .blog__items {
+        display: block;
+    }
+    .blog-item {
+        height: auto;
+        width: auto;
+  
+        margin: 20px 0;
+
+    }.item-name {
+        padding: 0 45px 0 20px;
+    }
+    .footer-box {
+        display: block;
+    }
+    .footer-top input {
+        margin: 15px 0;
+    }
+    .footer-bottom {
+        display: block;
+
+    }
+}
